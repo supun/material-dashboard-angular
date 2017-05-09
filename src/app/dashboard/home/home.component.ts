@@ -1,5 +1,6 @@
 import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
-import initDemo = require('../../../assets/js/charts.js');
+declare function require(arg:string): any;
+var initDemo = require('../../../assets/js/charts');
 
 declare var $:any;
 
